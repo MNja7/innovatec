@@ -10,12 +10,17 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/NIT-Logo-Icon.png" rel="icon">
-  <link href="assets/img/NIT-Logo-Icon.png" rel="apple-touch-icon">
+  <link href="assets/img/Main/NIT-Logo-Icon.png" rel="icon">
+  <link href="assets/img/Main/NIT-Logo-Icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/css/swiper.min.css">
+
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -27,62 +32,37 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
-
-  <!-- =======================================================
-  * Template Name: Vesperr - v4.9.1
-  * Template URL: https://bootstrapmade.com/vesperr-free-bootstrap-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
 </head>
 
 <body>
-
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top d-flex align-items-center">
     <div class="container d-flex align-items-center justify-content-between">
 
       <div class="logo">
-        <h1><img href="index.html" src="assets/img/NIT-Logo.png"></h1>
-        <!-- Uncomment below if you prefer to use an image logo -->
-        <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+        <a href="index.html"><img src="assets/img/Main/NIT-Logo.png" alt="" class="img-fluid"></a>
       </div>
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link scrollto active" style="font-weight: bold;" href="#hero">Home</a></li>
-          <li><a class="nav-link scrollto" style="font-weight: bold;" href="#main">Every Thing NIT</a></li>
-          <li><a class="nav-link scrollto" style="font-weight: bold;" href="#Projects">Projects</a></li>
-          <li class="dropdown"><a style="font-weight: bold;" href="#services"><span>Services</span> <i class="bi bi-chevron-down"></i></a>
+          <li><a class="nav-link scrollto active" href="#"><b>Home</b></a></li>
+          <li><a class="nav-link scrollto" href="About.html"><b>EveryThing NIT</b></a></li>
+          <li><a class="nav-link scrollto" href="Products.html"><b>Products</b></a></li>
+          <li class="dropdown">
+            <a href="#"><span><b>Services</b></span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-              <!-- <li class="dropdown"><a href="#"><span>Physical Security</span> <i class="bi bi-chevron-right"></i></a>
-                <ul>
-                  <li><a href="#">Sruveillance Systems</a></li>
-                  <li><a href="#">Access Controls/ Time Attendance System</a></li>
-                  <li><a href="#">Patrol Guard System</a></li>
-                  <li><a href="#">Security Barrier/ Parking Solution</a></li>
-                  <li><a href="#">Queue Management Systems</a></li>
-                </ul>
-              </li>
-              <li class="dropdown"><a href="#"><span>Network Security</span> <i class="bi bi-chevron-right"></i></a>
-                <ul>
-                  <li><a href="#">Virus/ Anti-Spam Solutions</a></li>
-                  <li><a href="#">Firewalls/ Proxy</a></li>
-                  <li><a href="#">Intrusion Detection</a></li>
-                  <li><a href="#">Microsoft Security Solutions</a></li>
-                </ul>
-              </li> -->
-              <li><a href="#">Physical Security</a></li>
-              <li><a href="#">Network Security</a></li>
-              <li><a href="#">Software Services</a></li>
-              <li><a href="#">Renewable Energy</a></li>
+              <li><a href="PhysicalSevice.html">Physical Security Services</a></li>
+              <li><a href="SoftwareSevice.html">Software Development Services</a></li>
+              <!-- <li><a href="#">Renewable Energy Services</a></li> -->
             </ul>
           </li>
-          <li><a class="nav-link scrollto" style="font-weight: bold;" href="#contact">Contact Us</a></li>
+          <li><a class="nav-link scrollto" href="index.html#IndexPortfolio"><b>Clients</b></a></li>
+          <li><a class="nav-link scrollto" href="Partners.html"><b>Partners</b></a></li>
+          <li><a class="nav-link scrollto" href="Careers.html"><b>Careers</b></a></li>
+          <li><a class="getstarted scrollto" href="Contacts.html"><b>Contact Us</b></a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
-
+      </nav>
     </div>
   </header>
   <!-- End Header -->
@@ -93,315 +73,237 @@
       <div class="row">
         <div class="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
           <h1 data-aos="fade-up" style="color: green;">Exceeding your</h1>
-          <h1 data-aos="fade-up" style="color: greenyellow;">&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  Expectations</h1>
-          
-          <h2 data-aos="fade-up" data-aos-delay="400">Bringing IT solutions to the forefront of its extistence</h2>
+          <h1 data-aos="fade-up" style="margin-left: 189px;color: greenyellow;">Expectations</h1>
+          <h2 data-aos="fade-up" data-aos-delay="400">
+            Bringing IT solutions to the forefront of its extistence
+          </h2>
           <!-- <div data-aos="fade-up" data-aos-delay="800">
             <a href="#about" class="btn-get-started scrollto">Get Started</a>
           </div> -->
         </div>
         <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="fade-left" data-aos-delay="200">
-          <img src="assets/img/NIT_Image.png" class="img-fluid animated" alt="">
+          <img src="assets/img/Main/NIT_Image.png" class="img-fluid animated" alt="">
         </div>
       </div>
     </div>
-
   </section>
   <!-- End Hero -->
-  <section id="clients" class="clients clients">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-2 col-md-3 col-12">
-          <img src="assets/img/Partners/ADELSystem.png" class="img-fluid aos-init aos-animate" alt="" data-aos="zoom-in" data-aos-delay="100">
-        </div>
-        <div class="col-lg-2 col-md-3 col-12">
-          <img src="assets/img/Partners/vanderbilt.png" class="img-fluid aos-init aos-animate" alt="" data-aos="zoom-in" data-aos-delay="200">
-        </div>
-        <div class="col-lg-2 col-md-3 col-12">
-          <img src="assets/img/Partners/ACT.png" class="img-fluid aos-init aos-animate" alt="" data-aos="zoom-in" data-aos-delay="300">
-        </div>
-        <div class="col-lg-2 col-md-3 col-12">
-          <img src="assets/img/Partners/gatekeeper.png" class="img-fluid aos-init aos-animate" alt="" data-aos="zoom-in" data-aos-delay="400">
-        </div>
-        <div class="col-lg-2 col-md-3 col-12">
-          <img src="assets/img/Partners/FAAC.png" class="img-fluid aos-init aos-animate" alt="" data-aos="zoom-in" data-aos-delay="500">
-        </div>
-        <div class="col-lg-2 col-md-3 col-12">
-          <img src="assets/img/Partners/AXIS.png" class="img-fluid aos-init aos-animate" alt="" data-aos="zoom-in" data-aos-delay="500">
-        </div>
-      </div>
-
-    </div>
-  </section>
 
   <main id="main">
-    <section id="more-services" class="more-services">
-      <div class="container">
-        <div class="section-title" data-aos="fade-up">
-          <h2>Evey Thing NIT</h2>
-        </div>
-        <div class="row">
-          <div class="col-md-6 d-flex align-items-stretch">
-            <div class="card aos-init aos-animate" style="background-image: url(&quot;assets/img/vision_03.jpg&quot;);" data-aos="fade-up" data-aos-delay="100">
-              <div class="card-body">
-                <h5 class="card-title">
-                  <a href="">Vision</a>
-                </h5>
-                <p class="card-text">
-                  Powered with Great Technology we aim to elevate the reach of IOT to both entities and individuals as simple as possible
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
-            <div class="card aos-init aos-animate" style="background-image: url(&quot;assets/img/mission_03.jfif&quot;);" data-aos="fade-up" data-aos-delay="200">
-              <div class="card-body">
-                <h5 class="card-title">
-                  <a href="">Mission</a>
-                </h5>
-                <p class="card-text">
-                  Working in a customer centric approach to be a full-fledged end-to end integrated solution provider serving all organizational needs
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 d-flex align-items-stretch mt-4">
-            <div class="card aos-init aos-animate" style="background-image: url(&quot;assets/img/identity_01.jpg&quot;);" data-aos="fade-up" data-aos-delay="100">
-              <div class="card-body">
-                <h5 class="card-title">
-                  <a href="">Identity</a>
-                </h5>
-                <p class="card-text">
-                  At NIT we innovate Solutions that are specifically tailored to our customers’ needs, our highly experienced Team will diligently perform a 360 extensive study of our clients’ profile and provide a detailed assessment of their requirements to provide a full- fledged end-to-end solution, with a much broader portfolio of products and services.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 d-flex align-items-stretch mt-4">
-            <div class="card aos-init aos-animate" style="background-image: url(&quot;assets/img/team_01.jpg&quot;);" data-aos="fade-up" data-aos-delay="200">
-              <div class="card-body">
-                <h5 class="card-title">
-                  <a href="">Team</a>
-                </h5>
-                <p class="card-text">
-                  We pride ourselves to posses a variety of expertise represented by a team of highly professional Engineers, presales and after sales representatives, in addition to highly experienced technicians, who are all together with our great spirit of team work are highly capable of catering to all our customers business needs.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
     <!-- ======= About Us Section ======= -->
-    <section hidden id="about" class="about">
+    <section id="about" class="about">
       <div class="container">
         <div class="section-title" data-aos="fade-up">
-          <h2>Evey Thing NIT</h2>
+          <h2>EveryThing NIT</h2>
         </div>
-        <div class="row content">
-          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="150">
-            <p><i class="bi bi-tag-fill"></i> <strong>Vision</strong></p>
-            <ul>
-              <li>
-                <i class="ri-check-double-line"></i> 
-                Powered with great technology we aim to elevate the reach of IOT to both entities and individuals
-              </li>
-              <li>
-                <i class="ri-check-double-line"></i> 
-                Powered with Great Technology we aim to elevate the reach of IOT to both entities and individuals as simple as possible
-              </li>
-              <li>
-                <i class="ri-check-double-line"></i> 
-                Powered with great technology we aim to elevate the reach of IOT to both entities and individuals in the simplest possible manner
-              </li>
-            </ul>
-          </div>
-          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="222">
-            <img src="assets/img/VisionMission.png" alt="" class="img-fluid">
-          </div>
-          <div class="col-lg-4 pt-4 pt-lg-0" data-aos="fade-up" data-aos-delay="300">
-            <p><i class="bi bi-tag-fill"></i> <strong>Mission</strong></p>
+        <div class="row content" style="text-align: center;">
+          <div class="col-lg-12" data-aos="fade-up" data-aos-delay="150">
             <p>
-              Working in a customer centric approach to be a full-fledged end-to end integrated solution provider to serve all organizational needs.
+              <strong>New Innovation Technology </strong> being based In Dubai – UAE<br> Since 2001, has enabled us to
+              get in touch with the latest innovative most evolved technologies
+              <br> that are employed by our elite customers, and we continue to provide our services In Cairo-Egypt for
+              the past 10 years.
             </p>
+            <p>
+              <strong>NIT</strong> is a Fully fledged end to end solution provider who has been able in the past 2
+              decades to put together top-notch resources from personnel, process, technology and high quality products
+              to target ultimate customer satisfaction
+            </p>
+            <p>
+              We are miles ahead of our league in providing software development, QA, cloud computing and security
+              solution, with a proven record of highly satisfied clients.
+            </p>
+            <a href="About.html" class="btn-learn-more">Learn More</a>
           </div>
         </div>
       </div>
     </section>
     <!-- End About Us Section -->
 
-    <!-- ======= Projects Section ======= -->
-    <section id="Projects" class="portfolio">
+    <!-- ======= Products Section ======= -->
+    <section id="team" class="team  section-bg">
       <div class="container">
+
         <div class="section-title" data-aos="fade-up">
-          <h2>Projects</h2>
+          <h2>Products</h2>
         </div>
-        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="400">
-          <!-- CairoGate -->
-          <div class="col-lg-2 col-md-3 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="assets/img/Projects/CairoGate.jpg" class="img-fluid" alt="">
+        <div class="row">
+          <div class="col-lg-2 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="fade-up" data-aos-delay="100">
+              <div class="member-img">
+                <img src="assets/img/Products/AccessControl.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="member-info">
+                <h4>Access Control System</h4>
+                <span>Chief Executive Officer</span>
+              </div>
             </div>
           </div>
-          <!-- UpTownCairo -->
-          <div class="col-lg-2 col-md-3 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="assets/img/Projects/UpTownCairo.png" class="img-fluid" alt="">
+
+          <div class="col-lg-2 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="fade-up" data-aos-delay="200">
+              <div class="member-img">
+                <img src="assets/img/Products/barriers.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="member-info">
+                <h4>Barriers</h4>
+                <span>Product Manager</span>
+              </div>
             </div>
           </div>
-          <!-- Mivida -->
-          <div class="col-lg-2 col-md-3 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="assets/img/Projects/mivida.jpg" class="img-fluid" alt="">
+
+          <div class="col-lg-2 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="fade-up" data-aos-delay="300">
+              <div class="member-img">
+                <img src="assets/img/Products/turnstile.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="member-info">
+                <h4>Turnstiles</h4>
+                <span>CTO</span>
+              </div>
             </div>
           </div>
-          <!-- Marassi -->
-          <div class="col-lg-2 col-md-3 portfolio-item filter-card">
-            <div class="portfolio-wrap">
-              <img src="assets/img/Projects/Marassi.png" class="img-fluid" alt="">
+
+          <div class="col-lg-2 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="fade-up" data-aos-delay="400">
+              <div class="member-img">
+                <img src="assets/img/Products/FireAlarm.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="member-info">
+                <h4>Fire Alarm System</h4>
+                <span>Accountant</span>
+              </div>
             </div>
           </div>
-          <!-- MinistryOfHealth -->
-          <div class="col-lg-2 col-md-3 portfolio-item filter-card">
-            <div class="portfolio-wrap">
-              <img src="assets/img/Projects/MinistryOfHealth.jpg" class="img-fluid" alt="">
+          <div class="col-lg-2 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="fade-up" data-aos-delay="400">
+              <div class="member-img">
+                <img src="assets/img/Products/Camera.jfif" class="img-fluid" alt="">
+              </div>
+              <div class="member-info">
+                <h4>CCTV/ IP Camera</h4>
+                <span>Accountant</span>
+              </div>
             </div>
           </div>
-          <!-- AOI -->
-          <div class="col-lg-2 col-md-3 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="assets/img/Projects/AOI.jpg" class="img-fluid" alt="">
-            </div>
-          </div>
-          <!-- AjmanChamber -->
-          <div class="col-lg-2 col-md-3 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="assets/img/Projects/AjmanChamber.jpg" class="img-fluid" alt="">
-            </div>
-          </div>
-          <!-- AxiomTelecom -->
-          <div class="col-lg-2 col-md-3 portfolio-item filter-card">
-            <div class="portfolio-wrap">
-              <img src="assets/img/Projects/AxiomTelecom.png" class="img-fluid" alt="">
-            </div>
-          </div>
-          <!-- DubaiPolice -->
-          <div class="col-lg-2 col-md-3 portfolio-item filter-card">
-            <div class="portfolio-wrap">
-              <img src="assets/img/Projects/DubaiPolice.jpg" class="img-fluid" alt="">
-            </div>
-          </div>
-          <!-- QNB -->
-          <div class="col-lg-2 col-md-3 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="assets/img/Projects/QNB.jpg" class="img-fluid" alt="">
-            </div>
-          </div>
-          <!-- AjmanUniversity -->
-          <div class="col-lg-2 col-md-3 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="assets/img/Projects/AjmanUniversity.jpeg" class="img-fluid" alt="">
+          <div class="col-lg-2 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="fade-up" data-aos-delay="400">
+              <div class="member-img">
+                <img src="assets/img/Products/bollards.png" class="img-fluid" alt="">
+              </div>
+              <div class="member-info">
+                <h4>Bollards</h4>
+                <span>Accountant</span>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </section>
-    <!-- End Projects Section -->
+    <!-- End Products Section -->
 
     <!-- ======= Services Section ======= -->
     <section id="services" class="services">
       <div class="container">
-
         <div class="section-title" data-aos="fade-up">
           <h2>Services</h2>
         </div>
-
         <div class="row">
-          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+          <div class="col-md-12 col-lg-6">
             <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
-              <div class="icon"><i class="bx bxl-dribbble"></i></div>
-              <h4 class="title"><a href="">Physical Security</a></h4>
-              <!-- <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p> -->
+              <div class="icon">
+                <i class="bi bi-shield-lock"></i>
+              </div>
+              <h4 class="title">
+                <a href="PhysicalSevice.html">Physical Security Services</a>
+              </h4>
             </div>
           </div>
 
-          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
-            <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
-              <div class="icon"><i class="bx bx-file"></i></div>
-              <h4 class="title"><a href="">Network Security</a></h4>
-              <!-- <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p> -->
-            </div>
-          </div>
-
-          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+          <div class="col-md-12 col-lg-6">
             <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
-              <div class="icon"><i class="bx bx-tachometer"></i></div>
-              <h4 class="title"><a href="">Software Services</a></h4>
-              <!-- <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p> -->
+              <div class="icon">
+                <i class="bi bi-code-slash"></i>
+              </div>
+              <h4 class="title">
+                <a href="SoftwareSevice.html">Software Development Services</a>
+              </h4>
             </div>
           </div>
-
-          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+          <!-- <div class="col-md-12 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-0">
             <div class="icon-box" data-aos="fade-up" data-aos-delay="400">
               <div class="icon"><i class="bx bx-world"></i></div>
-              <h4 class="title"><a href="">Renewable Energy</a></h4>
-              <!-- <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p> -->
+              <h4 class="title"><a href="#">Renewable Energy Services</a></h4>
+              <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
             </div>
-          </div>
-
+          </div> -->
         </div>
-
       </div>
     </section>
     <!-- End Services Section -->
 
-    <!-- ======= More Services Section ======= -->
-    <section hidden id="more-services" class="more-services">
+    <!-- ======= Clients Section ======= -->
+    <section id="clients" class="clients clients  section-bg">
       <div class="container">
-
         <div class="row">
-          <div class="col-md-6 d-flex align-items-stretch">
-            <div class="card" style='background-image: url("assets/img/more-services-1.jpg");' data-aos="fade-up" data-aos-delay="100">
-              <div class="card-body">
-                <h5 class="card-title"><a href="">Lobira Duno</a></h5>
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor ut labore et dolore magna aliqua.</p>
-                <div class="read-more"><a href="#"><i class="bi bi-arrow-right"></i> Read More</a></div>
-              </div>
-            </div>
+          <div class="section-title" data-aos="fade-up">
+            <h2>Distributers</h2>
           </div>
-          <div class="col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
-            <div class="card" style='background-image: url("assets/img/more-services-2.jpg");' data-aos="fade-up" data-aos-delay="200">
-              <div class="card-body">
-                <h5 class="card-title"><a href="">Limere Radses</a></h5>
-                <p class="card-text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem doloremque laudantium, totam rem.</p>
-                <div class="read-more"><a href="#"><i class="bi bi-arrow-right"></i> Read More</a></div>
-              </div>
-            </div>
-
+          <div class="col-lg-2 col-md-4 col-6">
+            <img src="assets/img/Distributors/ACT.png" class="img-fluid" data-aos="zoom-in">
           </div>
-          <div class="col-md-6 d-flex align-items-stretch mt-4">
-            <div class="card" style='background-image: url("assets/img/more-services-3.jpg");' data-aos="fade-up" data-aos-delay="100">
-              <div class="card-body">
-                <h5 class="card-title"><a href="">Nive Lodo</a></h5>
-                <p class="card-text">Nemo enim ipsam voluptatem quia voluptas sit aut odit aut fugit, sed quia magni dolores.</p>
-                <div class="read-more"><a href="#"><i class="bi bi-arrow-right"></i> Read More</a></div>
-              </div>
-            </div>
+          <div class="col-lg-2 col-md-4 col-6">
+            <img src="assets/img/Distributors/ADELSystem.png" style="scale: 1.4;" class="img-fluid" data-aos="zoom-in"
+              data-aos-delay="100">
           </div>
-          <div class="col-md-6 d-flex align-items-stretch mt-4">
-            <div class="card" style='background-image: url("assets/img/more-services-4.jpg");' data-aos="fade-up" data-aos-delay="200">
-              <div class="card-body">
-                <h5 class="card-title"><a href="">Pale Treda</a></h5>
-                <p class="card-text">Nostrum eum sed et autem dolorum perspiciatis. Magni porro quisquam laudantium voluptatem.</p>
-                <div class="read-more"><a href="#"><i class="bi bi-arrow-right"></i> Read More</a></div>
-              </div>
-            </div>
+          <div class="col-lg-2 col-md-4 col-6">
+            <img src="assets/img/Distributors/AXIS.png" class="img-fluid" data-aos="zoom-in" data-aos-delay="200">
+          </div>
+          <div class="col-lg-2 col-md-4 col-6">
+            <img src="assets/img/Distributors/FAAC.png" class="img-fluid" data-aos="zoom-in" data-aos-delay="300">
+          </div>
+          <div class="col-lg-2 col-md-4 col-6">
+            <img src="assets/img/Distributors/gatekeeper.png" style="scale: 1.4;" class="img-fluid" data-aos="zoom-in"
+              data-aos-delay="400">
+          </div>
+          <div class="col-lg-2 col-md-4 col-6">
+            <img src="assets/img/Distributors/vanderbilt.png" class="img-fluid" data-aos="zoom-in" data-aos-delay="500">
           </div>
         </div>
-
+        <div hidden class="swiper-container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="assets/img/Distributors/ACT.png" class="img-fluid" data-aos="zoom-in">
+            </div>
+            <div class="swiper-slide">
+              <img src="assets/img/Distributors/ADELSystem.png" style="scale: 1.4;" class="img-fluid" data-aos="zoom-in"
+                data-aos-delay="100">
+            </div>
+            <div class="swiper-slide">
+              <img src="assets/img/Distributors/AXIS.png" class="img-fluid" data-aos="zoom-in" data-aos-delay="200">
+            </div>
+            <div class="swiper-slide">
+              <img src="assets/img/Distributors/FAAC.png" class="img-fluid" data-aos="zoom-in" data-aos-delay="300">
+            </div>
+            <div class="swiper-slide">
+              <img src="assets/img/Distributors/gatekeeper.png" style="scale: 1.4;" class="img-fluid" data-aos="zoom-in"
+                data-aos-delay="400">
+            </div>
+            <div class="swiper-slide">
+              <img src="assets/img/Distributors/vanderbilt.png" class="img-fluid" data-aos="zoom-in"
+                data-aos-delay="500">
+            </div>
+          </div>
+          <!-- Add Pagination -->
+          <div class="swiper-pagination"></div>
+          <!-- Add Arrows -->
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
       </div>
     </section>
-    <!-- End More Services Section -->
+    <!-- End Clients Section -->
+
 
     <!-- ======= Features Section ======= -->
     <section hidden id="features" class="features">
@@ -491,447 +393,223 @@
     </section>
     <!-- End Features Section -->
 
-    <!-- ======= Testimonials Section ======= -->
-    <section hidden id="testimonials" class="testimonials section-bg">
-      <div class="container">
-
-        <div class="section-title" data-aos="fade-up">
-          <h2>Testimonials</h2>
-          <p>Magnam dolores commodi suscipit eum quidem consectetur velit</p>
-        </div>
-
-        <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
-          <div class="swiper-wrapper">
-
-            <div class="swiper-slide">
-              <div class="testimonial-wrap">
-                <div class="testimonial-item">
-                  <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-                  <h3>Saul Goodman</h3>
-                  <h4>Ceo &amp; Founder</h4>
-                  <p>
-                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                    Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
-                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                  </p>
-                </div>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-wrap">
-                <div class="testimonial-item">
-                  <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-                  <h3>Sara Wilsson</h3>
-                  <h4>Designer</h4>
-                  <p>
-                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                    Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
-                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                  </p>
-                </div>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-wrap">
-                <div class="testimonial-item">
-                  <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-                  <h3>Jena Karlis</h3>
-                  <h4>Store Owner</h4>
-                  <p>
-                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                    Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
-                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                  </p>
-                </div>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-wrap">
-                <div class="testimonial-item">
-                  <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
-                  <h3>Matt Brandon</h3>
-                  <h4>Freelancer</h4>
-                  <p>
-                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                    Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
-                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                  </p>
-                </div>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-wrap">
-                <div class="testimonial-item">
-                  <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
-                  <h3>John Larson</h3>
-                  <h4>Entrepreneur</h4>
-                  <p>
-                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                    Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
-                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                  </p>
-                </div>
-              </div>
-            </div><!-- End testimonial item -->
-
-          </div>
-          <div class="swiper-pagination"></div>
-        </div>
-
-      </div>
-    </section>
-    <!-- End Testimonials Section -->
-
-    <!-- ======= Counts Section ======= -->
-    <section hidden id="counts" class="counts">
-      <div class="container">
-        <div class="row">
-          <div class="col-xl-6 d-flex align-items-stretch pt-4 pt-xl-0" data-aos="fade-left" data-aos-delay="300"></div>
-          <div class="col-xl-6 d-flex align-items-stretch pt-4 pt-xl-0" data-aos="fade-left" data-aos-delay="300">
-            <div class="content d-flex flex-column justify-content-center">
-              <div class="row">
-                <div class="col-md-3 d-md-flex align-items-md-stretch">
-                  <div class="count-box">
-                    <i class="bi bi-emoji-smile"></i>
-                    <span data-purecounter-start="0" data-purecounter-end="65" data-purecounter-duration="1" class="purecounter"></span>
-                    <p><strong>Happy Clients</strong></p>
-                  </div>
-                </div>
-
-                <div class="col-md-3 d-md-flex align-items-md-stretch">
-                  <div class="count-box">
-                    <i class="bi bi-journal-richtext"></i>
-                    <span data-purecounter-start="0" data-purecounter-end="85" data-purecounter-duration="1" class="purecounter"></span>
-                    <p><strong>Projects</strong></p>
-                  </div>
-                </div>
-
-                <div class="col-md-3 d-md-flex align-items-md-stretch">
-                  <div class="count-box">
-                    <i class="bi bi-clock"></i>
-                    <span data-purecounter-start="0" data-purecounter-end="20" data-purecounter-duration="1" class="purecounter"></span>
-                    <p><strong>Years of experience</strong></p>
-                  </div>
-                </div>
-
-                <div class="col-md-3 d-md-flex align-items-md-stretch">
-                  <div class="count-box">
-                    <i class="bi bi-award"></i>
-                    <span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="1" class="purecounter"></span>
-                    <p><strong>Awards</strong></p>
-                  </div>
-                </div>
-              </div>
-            </div><!-- End .content-->
-          </div>
-        </div>
-
-      </div>
-    </section>
-    <!-- End Counts Section -->
-
-    <!-- ======= Partners Section ======= -->
-    <section id="clients" class="clients clients">
+    <!-- ======= Clients Section ======= -->
+    <section id="IndexPortfolio" class="portfolio">
       <div class="container">
         <div class="section-title" data-aos="fade-up">
-          <h2>Our Partners</h2>
+          <h2>Our Clients</h2>
         </div>
-        <div class="row">
-          <div class="col-lg-2 col-md-4 col-6">
-            <a href="https://www.abus.com/">
-              <img src="assets/img/Partners/ABUS.png" class="img-fluid" alt="" data-aos="zoom-in">
-            </a>
+        <!-- <div class="row" data-aos="fade-up" data-aos-delay="200">
+          <div class="col-lg-12 d-flex justify-content-center">
+            <ul id="portfolio-flters">
+              <li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-app">App</li>
+              <li data-filter=".filter-card">Card</li>
+              <li data-filter=".filter-web">Web</li>
+            </ul>
           </div>
-          <div class="col-lg-2 col-md-4 col-6">
-            <a href="https://www.acer.com/us-en">
-              <img src="assets/img/Partners/ACER.png" class="img-fluid" alt="" data-aos="zoom-in">
-            </a>
+        </div> -->
+        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="400">
+          <div class="col-lg-2 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/clients/Emaar.png" class="img-fluid" alt="">
+            </div>
           </div>
-          <!-- <div class="col-lg-2 col-md-4 col-6">
-            <a href="https://www.actsystemsltd.com/">
-              <img src="assets/img/Partners/ACT.png" class="img-fluid" alt="" data-aos="zoom-in">
-            </a>
-          </div> -->
-          <!-- <div class="col-lg-2 col-md-4 col-6">
-            <a href="https://www.adelsystem.com/">
-              <img src="assets/img/Partners/ADELSystem.png" class="img-fluid" alt="" data-aos="zoom-in">
-            </a>
-          </div> -->
-          <!-- <div class="col-lg-2 col-md-4 col-6">
-            <a href="https://www.axis.com/">
-              <img src="assets/img/Partners/AXIS.png" class="img-fluid" alt="" data-aos="zoom-in">
-            </a>
-          </div> -->
-          <div class="col-lg-2 col-md-4 col-6">
-            <a href="https://www.axxonsoft.com/">
-              <img src="assets/img/Partners/axxonsoft.png" class="img-fluid" alt="" data-aos="zoom-in">
-            </a>
+          <div class="col-lg-2 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/clients/UpTownCairo.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <a>UpTown Cairo</a>
+              </div>
+            </div>
           </div>
-          <div class="col-lg-2 col-md-4 col-6">
-            <a href="https://www.bosch.com/">
-              <img src="assets/img/Partners/boasch.png" class="img-fluid" alt="" data-aos="zoom-in">
-            </a>
+          <div class="col-lg-2 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/clients/Marassi-1.jfif" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <a>Marassi</a>
+              </div>
+            </div>
           </div>
-          <div class="col-lg-2 col-md-4 col-6">
-            <a href="https://www.cardin.it/">
-              <img src="assets/img/Partners/cardin.gif" class="img-fluid" alt="" data-aos="zoom-in">
-            </a>
+          <div class="col-lg-2 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/clients/Mivida-logo.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <a>Mivida</a>
+              </div>
+            </div>
           </div>
-          <div class="col-lg-2 col-md-4 col-6">
-            <a href="https://www.cisco.com/c/en_eg/index.html">
-              <img src="assets/img/Partners/CISCO.png" class="img-fluid" alt="" data-aos="zoom-in">
-            </a>
+          <div class="col-lg-2 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/clients/CairoGate.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <a>Cairo Gate</a>
+              </div>
+            </div>
           </div>
-          <div class="col-lg-2 col-md-4 col-6">
-            <a href="https://www.commend.com/">
-              <img src="assets/img/Partners/Commend.png" class="img-fluid" alt="" data-aos="zoom-in">
-            </a>
+          <div class="col-lg-2 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/clients/MinistryOfHealth.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <a>Bani Ebeed Hospital</a>
+              </div>
+            </div>
           </div>
-          <!-- <div class="col-lg-2 col-md-4 col-6">
-            <a href="https://www.comnet.net/">
-              <img src="assets/img/Partners/Comnet.png" class="img-fluid" alt="" data-aos="zoom-in">
-            </a>
-          </div> -->
-          <div class="col-lg-2 col-md-4 col-6">
-            <a href="https://www.dell.com/en-us">
-              <img src="assets/img/Partners/Dell.png" class="img-fluid" alt="" data-aos="zoom-in">
-            </a>
+          <div class="col-lg-2 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/clients/AjmanChamber.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <a>Ajman Chamber</a>
+              </div>
+            </div>
           </div>
-          <div class="col-lg-2 col-md-4 col-6">
-            <a href="https://www.elka.eu/en/">
-              <img src="assets/img/Partners/ELKA.png" class="img-fluid" alt="" data-aos="zoom-in">
-            </a>
+          <div class="col-lg-2 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/clients/AjmanUniversity.jpeg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <a>Ajman University</a>
+              </div>
+            </div>
           </div>
-          <div class="col-lg-2 col-md-4 col-6">
-            <a href="https://www.evva.com/int-en/">
-              <img src="assets/img/Partners/evva.png" class="img-fluid" alt="" data-aos="zoom-in">
-            </a>
+          <div class="col-lg-2 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/clients/AOI.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <a>AOI</a>
+              </div>
+            </div>
           </div>
-          <!-- <div class="col-lg-2 col-md-4 col-6">
-            <a href="https://www.faac.co.uk/">
-              <img src="assets/img/Partners/FAAC.png" class="img-fluid" alt="" data-aos="zoom-in">
-            </a>
-          </div> -->
-          <!-- <div class="col-lg-2 col-md-4 col-6">
-            <a href="https://www.gatekeepersecurity.com/">
-              <img src="assets/img/Partners/gatekeeper.png" class="img-fluid" alt="" data-aos="zoom-in">
-            </a>
-          </div> -->
-          <div class="col-lg-2 col-md-4 col-6">
-            <a href="https://www.hanwhasecurity.com/">
-              <img src="assets/img/Partners/hanwha.png" class="img-fluid" alt="" data-aos="zoom-in">
-            </a>
+          <div class="col-lg-2 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/clients/AxiomTelecom.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <a>Axiom Telecom</a>
+              </div>
+            </div>
           </div>
-          <div class="col-lg-2 col-md-4 col-6">
-            <a href="https://www.hp.com/us-en/home.html">
-              <img src="assets/img/Partners/hp.png" class="img-fluid" alt="" data-aos="zoom-in">
-            </a>
+          <div class="col-lg-2 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/clients/DubaiPolice.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <a>Dubai Police</a>
+              </div>
+            </div>
           </div>
-          <div class="col-lg-2 col-md-4 col-6">
-            <a href="https://www.huawei.com/en/">
-              <img src="assets/img/Partners/huawei.png" class="img-fluid" alt="" data-aos="zoom-in">
-            </a>
+          <div class="col-lg-2 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/clients/Tasheel.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <a>Tas-heel</a>
+              </div>
+            </div>
           </div>
-          <div class="col-lg-2 col-md-4 col-6">
-            <a href="https://www.invixium.com/">
-              <img src="assets/img/Partners/invixium.png" class="img-fluid" alt="" data-aos="zoom-in">
-            </a>
+          <div class="col-lg-2 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/clients/QNB.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <a>Qatar National Bank</a>
+              </div>
+            </div>
           </div>
-          <div class="col-lg-2 col-md-4 col-6">
-            <a href="https://www.ikeytop.com/">
-              <img src="assets/img/Partners/keytop.png" class="img-fluid" alt="" data-aos="zoom-in">
-            </a>
+          <div class="col-lg-2 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/clients/BeitElKeer.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <a>Beit El-Khair</a>
+              </div>
+            </div>
           </div>
-          <div class="col-lg-2 col-md-4 col-6">
-            <a href="https://www.kionetworks.com/en/">
-              <img src="assets/img/Partners/KIO.png" class="img-fluid" alt="" data-aos="zoom-in">
-            </a>
+          <div class="col-lg-2 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/clients/Dibba.jfif" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <a>Dibba</a>
+              </div>
+            </div>
           </div>
-          <div class="col-lg-2 col-md-4 col-6">
-            <a href="https://www.microsoft.com/en-eg/">
-              <img src="assets/img/Partners/Microsoft.png" class="img-fluid" alt="" data-aos="zoom-in">
-            </a>
+          <div class="col-lg-2 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/clients/DubaiCustoms.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <a>Dubai Customs</a>
+              </div>
+            </div>
           </div>
-          <div class="col-lg-2 col-md-4 col-6">
-            <a href="https://www.milestonesys.com/">
-              <img src="assets/img/Partners/Milestone.png" class="img-fluid" alt="" data-aos="zoom-in">
-            </a>
+          <div class="col-lg-2 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/clients/EZ.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <a>Education Zone</a>
+              </div>
+            </div>
           </div>
-          <div class="col-lg-2 col-md-4 col-6">
-            <a href="https://nedap.com/">
-              <img src="assets/img/Partners/nedap.png" class="img-fluid" alt="" data-aos="zoom-in">
-            </a>
+          <div class="col-lg-2 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/clients/FirstSecurityGroup.jfif" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <a>First Security Group</a>
+              </div>
+            </div>
           </div>
-          <div class="col-lg-2 col-md-4 col-6">
-            <a href="https://www.perco.com/">
-              <img src="assets/img/Partners/PERCo.png" class="img-fluid" alt="" data-aos="zoom-in">
-            </a>
+          <div class="col-lg-2 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/clients/Gasco.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <a>Gasco</a>
+              </div>
+            </div>
           </div>
-          <div class="col-lg-2 col-md-4 col-6">
-            <a href="https://www.promise.com/us/">
-              <img src="assets/img/Partners/promise.png" class="img-fluid" alt="" data-aos="zoom-in">
-            </a>
+          <div class="col-lg-2 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/clients/KIC.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <a>Khawarizmi International Collage</a>
+              </div>
+            </div>
           </div>
-          <div class="col-lg-2 col-md-4 col-6">
-            <a href="https://rbh-access.com/">
-              <img src="assets/img/Partners/RBH.png" class="img-fluid" alt="" data-aos="zoom-in">
-            </a>
+          <div class="col-lg-2 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/clients/RasAlKhaima.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <a>Ras Al-Khaima</a>
+              </div>
+            </div>
           </div>
-          <div class="col-lg-2 col-md-4 col-6">
-            <a href="https://www.commscope.com/ruckus/">
-              <img src="assets/img/Partners/ruckus.png" class="img-fluid" alt="" data-aos="zoom-in">
-            </a>
+          <div class="col-lg-2 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/clients/SharekaBank.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <a>Shareka Bank</a>
+              </div>
+            </div>
           </div>
-          <div class="col-lg-2 col-md-4 col-6">
-            <a href="https://www.supremainc.com/en/">
-              <img src="assets/img/Partners/suprema.png" class="img-fluid" alt="" data-aos="zoom-in">
-            </a>
+          <div class="col-lg-2 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/clients/Tamimi.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <a>Al-Tamimi & Co.</a>
+              </div>
+            </div>
           </div>
-          <div class="col-lg-2 col-md-4 col-6">
-            <a href="https://www.univiewtechnology.com/">
-              <img src="assets/img/Partners/UNV.png" class="img-fluid" alt="" data-aos="zoom-in">
-            </a>
-          </div>
-          <!-- <div class="col-lg-2 col-md-4 col-6">
-            <a href="https://vanderbiltindustries.com/">
-              <img src="assets/img/Partners/vanderbilt.png" class="img-fluid" alt="" data-aos="zoom-in">
-            </a>
-          </div> -->
-          <div class="col-lg-2 col-md-4 col-6">
-            <a href="http://www.wejoin.net.cn/">
-              <img src="assets/img/Partners/Wejoin.png" class="img-fluid" alt="" data-aos="zoom-in">
-            </a>
+          <div class="col-lg-2 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/clients/Labour.jfif" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <a>Ministry of Labour</a>
+              </div>
+            </div>
           </div>
         </div>
-
       </div>
     </section>
-    <!-- End Partners Section -->
-
-    
-    <!-- ======= Team Section ======= -->
-    <section id="team" class="team section-bg">
-      <div class="container">
-        <h3  data-aos="fade-up" data-aos-delay="150"><b>Word of the CEO</b></h3>
-        <div class="row content">
-          
-          <div class="col-lg-5" data-aos="fade-up" data-aos-delay="150" style="text-align: center;">
-            <img src="assets/img/team/CEO_Image02.png" alt="" class="img-fluid">
-            <h5><b>Amr AbdelFatah</b></h5>
-            <p>Chief Executive Officer</p>
-              <!-- <ul>
-                <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
-                <li><i class="ri-check-double-line"></i> Duis aute irure dolor in reprehenderit in voluptate velit</li>
-                <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
-              </ul> -->
-          </div>
-          <div class="col-lg-auto" data-aos="fade-up" data-aos-delay="300">
-            <i class="bi bi-pen-fill" style="color:#58ba46;"></i>
-          </div>
-          <div class="col-lg-6 pt-4 pt-lg-0" data-aos="fade-up" data-aos-delay="300">
-            <p>
-              For almost two decades now, NIT has been committed to be a key enabler to the success of all our valued clients and our partners, we have always been on the hunt to research and develop to become on top of the world technological evolution, we have played a vital role being a fully-fledged system integrator to come up with the most innovative solutions that are specifically tailored to facilitate our customers business in all fields and industries, in a way that enhances productivity and efficiency.
-            </p>            
-          </div>
-        </div>
-      </div>
-      <div hidden class="container">
-
-        <div class="section-title" data-aos="fade-up">
-          <h2>Our Team</h2>
-        </div>
-        <div class="row">
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-            <div class="member" data-aos="fade-up" data-aos-delay="100">
-              <div class="member-img">
-                <img src="assets/img/team/CEO_Image03.png" class="img-fluid" alt="" style="background-color: #d6d6d8;">
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-              <div class="member-info">
-                <h4>Amr Abd Elfatah Omar</h4>
-                <span>Chief Executive Officer</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-            <div class="member" data-aos="fade-up" data-aos-delay="200">
-              <div class="member-img">
-                <img src="assets/img/team/team-2.jpg" class="img-fluid" alt="">
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-              <div class="member-info">
-                <h4>Sarah Jhonson</h4>
-                <span>Product Manager</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-            <div class="member" data-aos="fade-up" data-aos-delay="300">
-              <div class="member-img">
-                <img src="assets/img/team/team-3.jpg" class="img-fluid" alt="">
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-              <div class="member-info">
-                <h4>William Anderson</h4>
-                <span>CTO</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-            <div class="member" data-aos="fade-up" data-aos-delay="400">
-              <div class="member-img">
-                <img src="assets/img/team/team-4.jpg" class="img-fluid" alt="">
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-              <div class="member-info">
-                <h4>Amanda Jepson</h4>
-                <span>Accountant</span>
-              </div>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section>
-    <!-- End Team Section -->
-
+    <!-- End Portfolio Section -->
 
     <!-- ======= Contact Section ======= -->
-    <section id="contact" class="contact">
+    <section hidden id="contact" class="contact">
       <div class="container">
-
         <div class="section-title" data-aos="fade-up">
           <h2>Contact Us</h2>
         </div>
-
         <div class="row">
           <div class="col-lg-5 col-md-6" data-aos="fade-up" data-aos-delay="100">
             <div class="contact-about">
@@ -940,11 +618,11 @@
                 <a href="#" class="twitter" style="color: #00ACEE;"><i class="bi bi-twitter"></i></a>
                 <a href="#" class="facebook" style="color: #3B5998;"><i class="bi bi-facebook"></i></a>
                 <a href="#" class="instagram" style="color: #8134AF;"><i class="bi bi-instagram"></i></a>
-                <a href="https://www.linkedin.com/company/new-innovation-technologies/" class="linkedin" style="color: #0072B1;"><i class="bi bi-linkedin"></i></a>
+                <a href="https://www.linkedin.com/company/new-innovation-technologies/" class="linkedin"
+                  style="color: #0072B1;"><i class="bi bi-linkedin"></i></a>
               </div>
             </div>
           </div>
-
           <div class="col-lg-3 col-md-6 mt-4 mt-md-0" data-aos="fade-up" data-aos-delay="200">
             <h5><b>UAE Branch</b></h5>
             <div class="info">
@@ -953,12 +631,10 @@
                 <p>Office No. 103 & 107, Cairo St.,
                   Mohammed Bin Rashid Al Maktoum Humanitarian And Charity Bldg <br>Dubai, UAE</p>
               </div>
-
               <div>
                 <i class="ri-mail-send-line"></i>
                 <p>innovate@innovatec.ae</p>
               </div>
-
               <div>
                 <i class="ri-phone-line"></i>
                 <p>+971(4)232 7341</p>
@@ -970,22 +646,19 @@
             <div class="info">
               <div>
                 <i class="ri-map-pin-line"></i>
-                <p>Office No. 2, 40 Dr.Abdullah El-Araby st. ext. of Al-Tayaran st. Nasr City<br/>Cairo, Egypt</p>
+                <p>Office No. 2, 40 Dr.Abdullah El-Araby st. ext. of Al-Tayaran st. Nasr City<br />Cairo, Egypt</p>
               </div>
-              <br/>
+              <br />
               <div>
                 <i class="ri-mail-send-line"></i>
                 <p>innovate@innovatec.com.eg</p>
               </div>
-
               <div>
                 <i class="ri-phone-line"></i>
                 <p>+2(02)238 781 30</p>
               </div>
-
             </div>
           </div>
-
           <div hidden class="col-lg-5 col-md-12" data-aos="fade-up" data-aos-delay="300">
             <form action="forms/contact.php" method="post" role="form" class="php-email-form">
               <div class="form-group">
@@ -1008,13 +681,10 @@
               <div class="text-center"><button type="submit">Send Message</button></div>
             </form>
           </div>
-
         </div>
-
       </div>
     </section>
     <!-- End Contact Section -->
-
   </main>
   <!-- End #main -->
 
@@ -1022,33 +692,24 @@
   <footer id="footer">
     <div class="container">
       <div class="row d-flex align-items-center">
-        <div class="col-lg-6 text-lg-left text-center">
+        <div class="text-lg-left text-center">
           <div class="copyright">
-            &copy; Copyright <strong>NIT</strong>. All Rights Reserved
+            &copy; Copyright <span id="year"></span> <strong>NIT</strong>. All Rights Reserved
           </div>
           <div class="credits">
-            <!-- All the links in the footer should remain intact. -->
-            <!-- You can delete the links only if you purchased the pro version. -->
-            <!-- Licensing information: https://bootstrapmade.com/license/ -->
-            <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/vesperr-free-bootstrap-template/ -->
-            Designed by Development Team</a>
+            Developed by Development Team
           </div>
-        </div>
-        <div class="col-lg-6">
-          <nav class="footer-links text-lg-right text-center pt-2 pt-lg-0">
-            <a href="#intro" class="scrollto">Home</a>
-            <a href="#main" class="scrollto">Every Thing NIT</a>
-            <!-- <a href="#">Privacy Policy</a>
-            <a href="#">Terms of Use</a> -->
-          </nav>
         </div>
       </div>
     </div>
   </footer>
   <!-- End Footer -->
 
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center">
+    <i class="bi bi-arrow-up-short"></i>
+  </a>
 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/js/swiper.min.js"></script>
   <!-- Vendor JS Files -->
   <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
@@ -1060,7 +721,6 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
-
 </body>
 
 </html>

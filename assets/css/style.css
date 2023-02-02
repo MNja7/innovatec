@@ -4,60 +4,14 @@
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
-#about_vision{
-  width: 100%; 
-  height: 300px;  
-}
-
-#nitWordOne{
-  font-size: 72px;
-  background: linear-gradient(to right,#37b54a, #ffc50c 20%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-#nitWordTwo{
-  font-size: 72px;
-  background: linear-gradient(to right, #ffc50c, blue);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  text-align: right;
-}
-
-#visionPhoto{
-  background-image:url("/assets/img/vision_03.jpg"); 
+#CEO_Word {
+  height: 200px;
+  background-image: url('../img/About/CEO_Signture.png');
   background-repeat: no-repeat;
-  background-size: cover;
-  border-radius: 8px;
-  filter: grayscale(100%);
+  background-position: center;
+  background-attachment: scroll;
 }
 
-#about_mission{
-  width: 100%; 
-  height: 300px;
-}
-#missionPhoto{
-  background-image:url("/assets/img/mission_03.jfif"); 
-  background-repeat: no-repeat;
-  background-size: cover;
-  border-radius: 8px;
-  filter: grayscale(100%);
-}
-
-#about_team{
-  width: 100%; 
-  height: 300px; 
-  background-image:url("/assets/img/team_01.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-#about_identity{
-  width: 100%; 
-  height: 300px; 
-  /* background-image:url("/assets/img/team_01.jpg"); */
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -67,7 +21,7 @@ body {
 }
 
 a {
-  color: green;
+  color: #38f109;
   text-decoration: none;
 }
 
@@ -82,7 +36,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Josefin Sans";/*"Raleway", sans-serif,*/
+  font-family: "Josefin Sans";
+  /* "Raleway", sans-serif; */
 }
 
 /*--------------------------------------------------------------
@@ -127,24 +82,13 @@ h6 {
   }
 }
 
-ul#menu li {
-  display:inline;
-}
-.dot {
-  height: 25px;
-  width: 25px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-}
-
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
 #header {
   z-index: 997;
   transition: all 0.5s;
-  padding: 12px 0;
+  padding: 14px 0;
   background: #fff;
 }
 
@@ -235,7 +179,7 @@ ul#menu li {
 .navbar .getstarted:hover,
 .navbar .getstarted:focus:hover {
   color: #fff;
-  background: green;
+  background: #57aae1;
 }
 
 .navbar .dropdown ul {
@@ -436,7 +380,8 @@ ul#menu li {
 }
 
 #hero .btn-get-started {
-  font-family:"Josefin Sans";/* "Raleway", sans-serif;*/
+  font-family: "Josefin Sans";
+  /*"Raleway", sans-serif;*/
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 1px;
@@ -532,6 +477,58 @@ ul#menu li {
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
+#aboutSection {
+  /* padding-top: 60px; */
+  overflow: hidden;
+}
+
+.About-details .About-info {
+  margin: 10px;
+  padding: 30px;
+  box-shadow: 0px 0 30px rgba(34, 34, 34, 0.08);
+  border-radius: 5px;
+}
+
+.About-details .About-info h3 {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eee;
+}
+
+.About-details .About-info ul {
+  list-style: none;
+  padding: 0;
+  font-size: 15px;
+}
+
+.About-details .About-info ul li+li {
+  margin-top: 10px;
+}
+
+.About-details .About-description {
+  padding-top: 30px;
+}
+
+.About-details .About-description h2 {
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.About-details .About-description p {
+  padding: 0;
+}
+
+.About-details :hover {
+  background-color: green;
+  color: white;
+  border-radius: 5px;
+}
+
+/*------------------------------------------------------------*/
+
 section {
   padding: 60px 0;
   overflow: hidden;
@@ -576,11 +573,10 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Clients
+# clients
 --------------------------------------------------------------*/
 .clients {
-  background: #9acd3252;
-  /* background-image: linear-gradient(#f3f9fd, #4e5ae4, #4548e7); */
+  /* background: #f3f9fd; */
   padding: 10px 0;
   text-align: center;
 }
@@ -612,6 +608,118 @@ section {
 
 @media (max-width: 575px) {
   .clients img {
+    width: 30%;
+  }
+}
+
+/*--------------------------------------------------------------
+Contact Info
+--------------------------------------------------------------*/
+#careerInfo {
+  background: #f6f6f6;
+  border-radius: 5px;
+  box-shadow: 0px 0 30px rgb(34 34 34 / 8%);
+  border: 2px solid green;
+}
+
+#careerInfo:hover {
+  background: #eef7fc;
+  background-color: green;
+  color: white;
+  border-radius: 5px;
+}
+
+#careerInfo a:hover {
+  background: #eef7fc;
+  background-color: green;
+  color: white;
+  border-radius: 5px;
+}
+
+.jobs:hover {
+  background: #eef7fc;
+  background-color: green;
+  color: white;
+  border-radius: 5px;
+}
+
+/*--------------------------------------------------------------
+Physical Security Services
+--------------------------------------------------------------*/
+.PhysicalService-info {
+  margin: 10px;
+  padding: 30px;
+  box-shadow: 0px 0 30px rgb(34 34 34 / 8%);
+}
+
+.PhysicalServices .icon-box {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background: #f6f6f6;
+  transition: ease-in-out 0.3s;
+}
+
+.PhysicalServices {
+  margin-top: 10px;
+}
+
+.PhysicalServices .icon-box i {
+  font-size: 32px;
+  padding-right: 10px;
+  line-height: 1;
+}
+
+.PhysicalServices .icon-box h3 {
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  font-size: 16px;
+}
+
+.PhysicalService-info:hover {
+  background: #eef7fc;
+  background-color: green;
+  color: white;
+  border-radius: 5px;
+}
+
+/*--------------------------------------------------------------
+# Partners
+--------------------------------------------------------------*/
+.Partners {
+  /* padding: 10px 0; */
+  text-align: center;
+}
+
+.Partners .col-lg-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Partners img {
+  width: 50%;
+  /* filter: grayscale(100); */
+  transition: all 0.4s ease-in-out;
+  display: inline-block;
+  padding: 10px 0;
+}
+
+.Partners img:hover {
+  /* filter: none; */
+  transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+  .Partners img {
+    width: 40%;
+  }
+}
+
+@media (max-width: 575px) {
+  .Partners img {
     width: 30%;
   }
 }
@@ -652,7 +760,8 @@ section {
 }
 
 .about .content .btn-learn-more {
-  font-family: "Josefin Sans" ; /*"Raleway", sans-serif;*/
+  font-family: "Josefin Sans";
+  /*"Raleway", sans-serif;*/
   font-weight: 600;
   font-size: 14px;
   letter-spacing: 1px;
@@ -720,7 +829,8 @@ section {
 .counts .content .count-box p {
   padding: 15px 0 0 0;
   margin: 0 0 0 50px;
-  font-family: "Josefin Sans"; /*"Raleway", sans-serif;*/
+  font-family: "Josefin Sans";
+  /*"Raleway", sans-serif;*/
   font-size: 14px;
   color: #484848;
 }
@@ -731,7 +841,8 @@ section {
   margin-top: 20px;
   color: #484848;
   font-size: 15px;
-  font-family: "Josefin Sans"; /*"Poppins", sans-serif;*/
+  font-family: "Josefin Sans";
+  /*"Poppins", sans-serif;*/
   transition: ease-in-out 0.3s;
 }
 
@@ -1106,7 +1217,6 @@ section {
 
 .portfolio .portfolio-wrap img {
   transition: all ease-in-out 0.3s;
-  height: 100%;
 }
 
 .portfolio .portfolio-wrap .portfolio-info {
@@ -1125,14 +1235,14 @@ section {
   padding: 20px;
 }
 
-.portfolio .portfolio-wrap .portfolio-info h6 {
+.portfolio .portfolio-wrap .portfolio-info h4 {
   font-size: 20px;
   color: #fff;
   font-weight: 600;
 }
 
-.portfolio .portfolio-wrap .portfolio-info p {
-  color: rgba(255, 255, 255, 0.7);
+.portfolio .portfolio-wrap .portfolio-info a {
+  color: white;
   font-size: 14px;
   text-transform: uppercase;
   padding: 0;
@@ -1342,7 +1452,8 @@ section {
   font-size: 42px;
   color: green;
   font-weight: 500;
-  font-family: "Josefin Sans"; /*"Open Sans", sans-serif;*/
+  font-family: "Josefin Sans";
+  /*"Open Sans", sans-serif;*/
   margin-bottom: 20px;
 }
 
@@ -1395,7 +1506,8 @@ section {
   color: green;
   font-size: 14px;
   font-weight: 400;
-  font-family: "Josefin Sans"; /*"Raleway", sans-serif;*/
+  font-family: "Josefin Sans";
+  /*"Raleway", sans-serif;*/
   font-weight: 600;
   transition: 0.3s;
 }
@@ -1442,7 +1554,8 @@ section {
   line-height: 26px;
   font-weight: 500;
   margin: 0 0 10px 32px;
-  font-family: "Josefin Sans"; /*"Poppins", sans-serif;*/
+  font-family: "Josefin Sans";
+  /*"Poppins", sans-serif;*/
 }
 
 .faq .faq-item p {
@@ -1465,7 +1578,8 @@ section {
 .contact .contact-about p {
   font-size: 14px;
   line-height: 24px;
-  font-family: "Josefin Sans"; /*"Raleway", sans-serif;*/
+  font-family: "Josefin Sans";
+  /*"Raleway", sans-serif;*/
   color: #888;
 }
 
@@ -1478,7 +1592,7 @@ section {
   display: inline-block;
   background: #fff;
   color: green;
-  line-height: 0;
+  line-height: 1;
   padding: 8px 0;
   margin-right: 4px;
   border-radius: 50%;
@@ -1490,7 +1604,7 @@ section {
 }
 
 .contact .social-links a:hover {
-  background: #ccc;
+  background: #ccd9e2;
   color: #fff;
 }
 
@@ -1608,7 +1722,7 @@ section {
 --------------------------------------------------------------*/
 .breadcrumbs {
   padding: 15px 0;
-  background: #f8f8f8;
+  background: #ffffff;
   min-height: 40px;
   margin-top: 86px;
 }
@@ -1669,6 +1783,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
+  margin-top: 10px;
   background: #fff;
   box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
   padding: 30px 0;
