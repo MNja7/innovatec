@@ -18,6 +18,9 @@
 body {
   font-family: "Open Sans", sans-serif, "Josefin Sans";
   color: #444444;
+  background-image: url("../img/bg-3.jpg");
+
+  background-size: cover;
 }
 
 a {
@@ -662,6 +665,7 @@ Physical Security Services
 
 .PhysicalServices {
   margin-top: 10px;
+  padding-bottom: 22px;
 }
 
 .PhysicalServices .icon-box i {
@@ -676,6 +680,16 @@ Physical Security Services
   padding: 0;
   line-height: 1;
   font-size: 16px;
+}
+
+.PhysicalServices .icon-box h3 a {
+  color: #222222;
+  transition: ease-in-out 0.3s;
+}
+
+.PhysicalServices .icon-box h3 a:hover {
+  color: #5faee3;
+  text-decoration: none;
 }
 
 .PhysicalService-info:hover {
